@@ -1,7 +1,7 @@
 import React from 'react';
 import { GoogleLogin } from '@react-oauth/google';
 // import { FcGoogle } from 'react-icons/fc';
-import logo from "../assets/logowhite.png";
+import logo from "../assets/logo_white.png";
 import shareVideo from "../assets/share.mp4";
 import jwt_decode from "jwt-decode";
 import { useNavigate } from 'react-router-dom';
@@ -40,10 +40,10 @@ const Login = () => {
           className='w-full h-full object-cover'
         />
         <div className="absolute flex flex-col justify-center items-center top-0 bottom-0 left-0 right-0 bg-blackOverlay">
-          <div className="p-5">
+          <div className="p-1">
             <img 
               src={logo} 
-              width="130px"
+              width="230px"
               alt='logo' 
             />
           </div>
